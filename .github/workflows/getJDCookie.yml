@@ -17,5 +17,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-- name: "get"
+- name: "getJDCookie"
         run: node getJDCookie.js
