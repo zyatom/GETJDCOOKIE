@@ -12,8 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: halloayou/GETJDCOOKIE
-          ref: main
+          repository: ${{ github.repository }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
